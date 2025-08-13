@@ -1,5 +1,5 @@
 const http = require('http');
-const port = 80; // change from 3000 to 80
+const port = 80; // Change from 3000 to 80
 
 const server = http.createServer((req, res) => {
   res.writeHead(200, {'Content-Type': 'text/html'});
